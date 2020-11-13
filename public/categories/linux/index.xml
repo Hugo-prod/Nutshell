@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Nutshell</title>
-    <link>https://http://51.38.177.192/categories/linux/</link>
+    <link>http://51.38.177.192/categories/linux/</link>
     <description>Recent content in linux on Nutshell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://http://51.38.177.192/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://51.38.177.192/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comment mettre une IP fixe/dynamique sur Linux</title>
-      <link>https://http://51.38.177.192/blog/linux_mettre_ip_fixe_dynamique/</link>
+      <link>http://51.38.177.192/blog/linux_mettre_ip_fixe_dynamique/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://http://51.38.177.192/blog/linux_mettre_ip_fixe_dynamique/</guid>
+      <guid>http://51.38.177.192/blog/linux_mettre_ip_fixe_dynamique/</guid>
       <description>Voici les modèles à suivre pour mettre une adresse IP en statique/fixée ou dynamique/DHCP
 IP statique/fixe: auto eth0 iface eth0 inet static address 192.168.1.101 # L&amp;#39;adresse IP netmask 255.255.255.0 # Le masque de réseau gateway 192.168.1.1 # La passerelle par défaut  IP DHCP: auto eth0 iface eth0 inet dhcp   Ne pas oublier de redemarrer le service bien sur : Debian:  sudo /etc/init.d/networking restart systemctl restart networking   Ubuntu:  service networking restart     D&amp;rsquo;ailleurs si les termes vous intrigue et que vous aimeriez en savoir plus, il y a une doc complète ici</description>
     </item>
