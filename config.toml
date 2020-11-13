@@ -1,6 +1,6 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
-baseurl                 = "https://example.com/"
+baseurl                 = "https://http://51.38.177.192/"
 DefaultContentLanguage  = "fr"
 title                   = "Nutshell"
 theme                   = "hugo-future-imperfect-slim"
