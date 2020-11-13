@@ -2,17 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Nutshell</title>
-    <link>https://example.com/blog/</link>
+    <link>https://http://51.38.177.192/blog/</link>
     <description>Recent content in Blog on Nutshell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://http://51.38.177.192/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Créer une clef SSH</title>
+      <link>https://http://51.38.177.192/blog/creer_clef_ssh/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://http://51.38.177.192/blog/creer_clef_ssh/</guid>
+      <description>Nous allons voir comment générer une clef SSH sous Linux et c&amp;rsquo;est très simple !
+ Tout d&amp;rsquo;abord il faut lancer l&amp;rsquo;utilitaire: ssh-keygen Il faut choisir un nom pour cette clef, dans mon cas c&amp;rsquo;est pour un accès à Github, je l&amp;rsquo;ai donc nommée github_hugo  Et voilà nous avons une clef   Note: On pourra noter que j&amp;rsquo;ai quand même spécifié le chemin absolu du lieu de son stockage, en l&amp;rsquo;occurence dans le dossier .</description>
+    </item>
+    
     <item>
       <title>Faire un serveur DHCP avec Windows server 16</title>
-      <link>https://example.com/blog/windows_dhcp/</link>
+      <link>https://http://51.38.177.192/blog/windows_dhcp/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/windows_dhcp/</guid>
+      <guid>https://http://51.38.177.192/blog/windows_dhcp/</guid>
       <description>Voici un tutoriel pour réaliser étape par étape un serveur DHCP avec Windows server 16
  Cliquez sur Gérer, puis sur Ajouter des rôles et fonctionnalités:
     Suivant:     Sélectionner le type d’installation Installation basée sur un rôle ou une fonctionnalité:     Selectionner le serveur puis suivant:     Sélectionner le rôle Serveur DHCP:     Valider avec Suivant:     Ici vous pouvez constater toutes les fonctionnalités disponnible, dans notre cas nous n&amp;rsquo;en avons besoin d&amp;rsquo;aucune, cliquez sur Suivant:     :warning: Rappel: votre serveur doit avoir une IP fixée !</description>
@@ -20,10 +30,10 @@
     
     <item>
       <title>Cheatsheet Bash</title>
-      <link>https://example.com/blog/cheatsheet_bash/</link>
+      <link>https://http://51.38.177.192/blog/cheatsheet_bash/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/cheatsheet_bash/</guid>
+      <guid>https://http://51.38.177.192/blog/cheatsheet_bash/</guid>
       <description>Cette cheatsheet est juste une réécriture partielle de cette cheatsheet: Source: devhints.io/bash
  Liste des variables définies dans un shell: $ set # Afficher les variables définie dans un shell $ unset MAVAR # Effacer une variable du shell Variable: Convention de nommage: écrire les variables en majuscule
 NAME=&amp;#34;John&amp;#34; echo $NAME echo &amp;#34;$NAME&amp;#34; echo &amp;#34;${NAME}!&amp;#34;  Variable portée: readonly LECTURESEULE=&amp;#34;ceci est une constante&amp;#34; # Constante  Variable &#39; &amp;quot; tick: DATE=date echo $DATE # date (affiche - &amp;#34;string&amp;#34;) ---------- DATE=&amp;#34;La date:&amp;#34;date echo $DATE # la date:date (affiche - &amp;#34;string&amp;#34;string) ---------- DATE=&amp;#39;La date:&amp;#39;date echo $DATE # La date:date (affiche - &amp;#34;string&amp;#34;string) ---------- DATE=&amp;#34;La date:&amp;#34;`date` echo $DATE # La date: samedi 22.</description>
@@ -31,20 +41,20 @@ NAME=&amp;#34;John&amp;#34; echo $NAME echo &amp;#34;$NAME&amp;#34; echo &amp;#3
     
     <item>
       <title>Comment mettre une IP fixe/dynamique sur Linux</title>
-      <link>https://example.com/blog/linux_mettre_ip_fixe_dynamique/</link>
+      <link>https://http://51.38.177.192/blog/linux_mettre_ip_fixe_dynamique/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/linux_mettre_ip_fixe_dynamique/</guid>
+      <guid>https://http://51.38.177.192/blog/linux_mettre_ip_fixe_dynamique/</guid>
       <description>Voici les modèles à suivre pour mettre une adresse IP en statique/fixée ou dynamique/DHCP
 IP statique/fixe: auto eth0 iface eth0 inet static address 192.168.1.101 # L&amp;#39;adresse IP netmask 255.255.255.0 # Le masque de réseau gateway 192.168.1.1 # La passerelle par défaut  IP DHCP: auto eth0 iface eth0 inet dhcp   Ne pas oublier de redemarrer le service bien sur : Debian:  sudo /etc/init.d/networking restart systemctl restart networking   Ubuntu:  service networking restart     D&amp;rsquo;ailleurs si les termes vous intrigue et que vous aimeriez en savoir plus, il y a une doc complète ici</description>
     </item>
     
     <item>
       <title>SSH autocompletion</title>
-      <link>https://example.com/blog/ssh_autocompletion/</link>
+      <link>https://http://51.38.177.192/blog/ssh_autocompletion/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/ssh_autocompletion/</guid>
+      <guid>https://http://51.38.177.192/blog/ssh_autocompletion/</guid>
       <description>Vous savez tout comme moi qu&amp;rsquo;il peut-être épuisant de devoir retaper l&amp;rsquo;adresse IP ou le Host de votre serveur
 La solution: ajouter l&amp;rsquo;autocomplete de Hostname pour SSH !
  Voici ce que ça donne:   Pour ce faire il nous faut déjà remplir le fichier ~/.ssh/config avec nos serveurs, voici un exemple:  ################################################ Serveur de production #################################################Host ServeurDeProductionHostname 127.0.0.1User rootIdentityFile ~/.ssh/prod################################################ Serveur de qualif #####################################################Host ServeurDeQualifHostname 127.</description>
@@ -52,10 +62,10 @@ La solution: ajouter l&amp;rsquo;autocomplete de Hostname pour SSH !
     
     <item>
       <title>Comment réparer une clef USB</title>
-      <link>https://example.com/blog/reparer_clef_usb_windows/</link>
+      <link>https://http://51.38.177.192/blog/reparer_clef_usb_windows/</link>
       <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/reparer_clef_usb_windows/</guid>
+      <guid>https://http://51.38.177.192/blog/reparer_clef_usb_windows/</guid>
       <description>Réparer une clef USB Windows:  Il arrive des fois, qu&amp;rsquo;après avoir créée une clef USB bootable (Linux, Windows&amp;hellip;) on se retrouve avec un espace de stockage perdu&amp;hellip;
 Dans mon cas, je voulais reformater ma clef USB de 8 Go sur laquelle j&amp;rsquo;avais monté un ISO Debian, sauf que l&amp;rsquo;outil de formatage Windows indiquait sa capacité totale à 390 Ko !
 Alors que l&amp;rsquo;outil de Gestion des disques Windows indiquait bien 8Go:</description>

@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
   <meta charset="utf-8">
-<title>linux - Nutshell</title>
+<title>Créer une clef SSH - Nutshell</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -19,13 +19,16 @@
   <meta name="theme-color" content="#ffffff">
 
 <meta name="generator" content="Hugo 0.78.1" /><meta property="og:site_name" content="Nutshell">
-  <meta property="og:title" content="linux">
-  <meta property="og:description" content="Je m&#39;appelle Hugo Grosot et je suis en deuxième année de BTS SIO SISR. Ici, vous pourrez trouver des notes ou des tutoriels sur l&#39;administration Linux/Windows mais également sur le réseau">
-  <meta property="description" content="Je m&#39;appelle Hugo Grosot et je suis en deuxième année de BTS SIO SISR. Ici, vous pourrez trouver des notes ou des tutoriels sur l&#39;administration Linux/Windows mais également sur le réseau">
-  <meta property="og:url" content="https://http:/51.38.177.192/categories/linux/">
+  <meta property="og:title" content="Créer une clef SSH">
+  <meta property="og:description" content="Voici comment créer une clef SSH sous Linux">
+  <meta property="description" content="Voici comment créer une clef SSH sous Linux">
+  <meta property="og:url" content="https://http:/51.38.177.192/blog/creer_clef_ssh/">
   <meta property="og:type" content="article">
   
-    <meta property="og:image" content="https://http:/51.38.177.192/img/main/logo.jpg">
+    
+      <meta property="og:image" content="https://http:/img/2020/11/creer_clef_ssh/key.png">
+      <meta property="og:image:alt" content="clef">
+    
   
   <link rel="stylesheet" href="/51.38.177.192/css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="/51.38.177.192/css/add-on.css">
 </head>
@@ -95,8 +98,6 @@
     <footer>
       <ul class="socnet-icons">
         
-    <li><a href="/51.38.177.192/categories/linux/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fas fa-rss"></a></li>
-
 
         <li><a href="//github.com/Hugo-prod" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
 
@@ -147,40 +148,71 @@
 
       <main id="site-main">
         
-  
-  
-    <article class="post">
-  <header>
+  <article class="post">
+    <header>
   <div class="title">
     
-      <h2><a href="/51.38.177.192/blog/linux_mettre_ip_fixe_dynamique/">Comment mettre une IP fixe/dynamique sur Linux</a></h2>
+      <h2><a href="/51.38.177.192/blog/creer_clef_ssh/">Créer une clef SSH</a></h2>
     
     
-      <p>IP statique ou IP DHCP ?</p>
+      <p>Voici comment créer une clef SSH sous Linux</p>
     
   </div>
   <div class="meta">
-    <time datetime="2020-11-09 00:00:00 &#43;0000 UTC">09-11-2020</time>
+    <time datetime="2020-11-13 00:00:00 &#43;0000 UTC">13-11-2020</time>
     <p>Hugo Grosot</p>
     <p>Lecture d&#39;une Minute</p>
   </div>
 </header>
 
-  <div class="content">
-    <a href="/51.38.177.192/blog/linux_mettre_ip_fixe_dynamique/" class="image" style="--bg-image: url('https://http:/img/2020/11/linux_ip_static_dynamic/linux_ip_static_dynamic.png');">
-    <img class="" src="https://http:/img/2020/11/linux_ip_static_dynamic/linux_ip_static_dynamic.png" alt="cheatsheet bash">
+    <div id="socnet-share">
+      
+
+
+
+
+
+    </div>
+    <div class="content">
+      <a href="/51.38.177.192/blog/creer_clef_ssh/" class="image" style="--bg-image: url('https://http:/img/2020/11/creer_clef_ssh/key.png');">
+    <img class="" src="https://http:/img/2020/11/creer_clef_ssh/key.png" alt="clef">
   </a>
-    
-    <p>Voici les modèles à suivre pour mettre une adresse IP en statique/fixée ou dynamique/DHCP</p>
-  </div>
-  <footer>
-    <a href="/51.38.177.192/blog/linux_mettre_ip_fixe_dynamique/" class="button big">Lire La Suite</a>
-    <div class="stats">
+      <p>Nous allons voir comment générer une clef SSH sous Linux et c&rsquo;est très simple !</p>
+<ul>
+<li>Tout d&rsquo;abord il faut lancer l&rsquo;utilitaire: <code>ssh-keygen</code></li>
+<li>Il faut choisir un nom pour cette clef, dans mon cas c&rsquo;est pour un accès à Github, je l&rsquo;ai donc nommée <code>github_hugo</code>
+<img src="/img/2020/11/creer_clef_ssh/ssh_keygen.png" alt="ssh_keygen.png"></li>
+<li>Et voilà nous avons une clef</li>
+</ul>
+<hr>
+<p><strong>Note:</strong>
+On pourra noter que j&rsquo;ai quand même spécifié le chemin absolu du lieu de son stockage, en l&rsquo;occurence dans le dossier <strong>.ssh</strong> de mon compte <strong>root</strong>, mais dans votre cas, vous voudrez certainement la stocker directement dans le dossier de votre session donc compléter avec votre chemin <code>/home/{VOTRE_USERNAME}/.ssh/{LE_NOM_DE_VOTRE_CLEF}</code></p>
+<hr>
+<h4 id="nous-pouvons-vérifier-lexistence-de-cette-clef">Nous pouvons vérifier l&rsquo;existence de cette clef:</h4>
+<ul>
+<li>Rendons nous dans notre dossier de configuration <strong>ssh</strong> respectif: <code>cd /home/.ssh/</code></li>
+<li>Puis, listons les fichiers avec: <code>ls -l</code>
+<img src="/img/2020/11/creer_clef_ssh/ls_l_ssh.PNG" alt="ls_l_ssh.png"></li>
+</ul>
+<p>Nous pouvons constater 2 fichiers portant le nom <code>github_hugo</code>:</p>
+<ul>
+<li><code>github_hugo</code>: La clef privée ! :warning: Cette clef doit être confidentielle ! :warning:</li>
+<li><code>github_hugo.pub</code>: La clef publique, c&rsquo;est celle que vous pouvez distribuer sur la machine distante !</li>
+</ul>
+<hr>
+<h4 id="déployer-la-clef">Déployer la clef</h4>
+<hr>
+<h4 id="vérifier-que-la-clef-est-bien-configurée">Vérifier que la clef est bien configurée:</h4>
+<p>ssh -T <a href="mailto:git@github.com">git@github.com</a> -i .ssh/github_hugo</p>
+
+    </div>
+    <footer>
+      <div class="stats">
   
     <ul class="categories">
       
         
-          <li><a class="article-terms-link" href="/51.38.177.192/categories/linux/">linux</a></li>
+          <li><a class="article-terms-link" href="/51.38.177.192/categories/ssh/">ssh</a></li>
         
       
     </ul>
@@ -189,9 +221,9 @@
     <ul class="tags">
       
         
-          <li><a class="article-terms-link" href="/51.38.177.192/tags/ip/">ip</a></li>
-        
           <li><a class="article-terms-link" href="/51.38.177.192/tags/linux/">linux</a></li>
+        
+          <li><a class="article-terms-link" href="/51.38.177.192/tags/ssh/">ssh</a></li>
         
           <li><a class="article-terms-link" href="/51.38.177.192/tags/tips/">tips</a></li>
         
@@ -200,12 +232,16 @@
   
 </div>
 
-  </footer>
-</article>
+    </footer>
+  </article>
+  
+    
 
   
   <div class="pagination">
     
+    
+      <a href="/51.38.177.192/blog/windows_dhcp/" class="button right"><span>Faire un serveur DHCP avec Windows server 16</span></a>
     
   </div>
 
@@ -311,8 +347,6 @@
   
       <ul class="socnet-icons">
         
-    <li><a href="/51.38.177.192/categories/linux/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fas fa-rss"></a></li>
-
 
         <li><a href="//github.com/Hugo-prod" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
 

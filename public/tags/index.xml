@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nutshell</title>
-    <link>https://example.com/tags/</link>
+    <link>https://http://51.38.177.192/tags/</link>
     <description>Recent content in Tags on Nutshell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>dhcp</title>
-      <link>https://example.com/tags/dhcp/</link>
-      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/tags/dhcp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>serveur</title>
-      <link>https://example.com/tags/serveur/</link>
-      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/tags/serveur/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>https://example.com/tags/windows/</link>
-      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bash</title>
-      <link>https://example.com/tags/bash/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/tags/bash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ip</title>
-      <link>https://example.com/tags/ip/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/tags/ip/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://http://51.38.177.192/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>linux</title>
-      <link>https://example.com/tags/linux/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://http://51.38.177.192/tags/linux/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/linux/</guid>
+      <guid>https://http://51.38.177.192/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://example.com/tags/ssh/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://http://51.38.177.192/tags/ssh/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/ssh/</guid>
+      <guid>https://http://51.38.177.192/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tips</title>
-      <link>https://example.com/tags/tips/</link>
+      <link>https://http://51.38.177.192/tags/tips/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://http://51.38.177.192/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dhcp</title>
+      <link>https://http://51.38.177.192/tags/dhcp/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://http://51.38.177.192/tags/dhcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serveur</title>
+      <link>https://http://51.38.177.192/tags/serveur/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://http://51.38.177.192/tags/serveur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://http://51.38.177.192/tags/windows/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://http://51.38.177.192/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://http://51.38.177.192/tags/bash/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/tips/</guid>
+      <guid>https://http://51.38.177.192/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ip</title>
+      <link>https://http://51.38.177.192/tags/ip/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://http://51.38.177.192/tags/ip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>partition</title>
-      <link>https://example.com/tags/partition/</link>
+      <link>https://http://51.38.177.192/tags/partition/</link>
       <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/partition/</guid>
+      <guid>https://http://51.38.177.192/tags/partition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>usb</title>
-      <link>https://example.com/tags/usb/</link>
+      <link>https://http://51.38.177.192/tags/usb/</link>
       <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/usb/</guid>
+      <guid>https://http://51.38.177.192/tags/usb/</guid>
       <description></description>
     </item>
     
