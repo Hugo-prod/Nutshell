@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on Nutshell</title>
+    <link>https://example.com/tags/windows/</link>
+    <description>Recent content in windows on Nutshell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Faire un serveur DHCP avec Windows server 16</title>
+      <link>https://example.com/blog/windows_dhcp/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/windows_dhcp/</guid>
+      <description>Voici un tutoriel pour réaliser étape par étape un serveur DHCP avec Windows server 16
+ Cliquez sur Gérer, puis sur Ajouter des rôles et fonctionnalités:
+    Suivant:     Sélectionner le type d’installation Installation basée sur un rôle ou une fonctionnalité:     Selectionner le serveur puis suivant:     Sélectionner le rôle Serveur DHCP:     Valider avec Suivant:     Ici vous pouvez constater toutes les fonctionnalités disponnible, dans notre cas nous n&amp;rsquo;en avons besoin d&amp;rsquo;aucune, cliquez sur Suivant:     :warning: Rappel: votre serveur doit avoir une IP fixée !</description>
+    </item>
+    
+    <item>
+      <title>Comment réparer une clef USB</title>
+      <link>https://example.com/blog/reparer_clef_usb_windows/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/reparer_clef_usb_windows/</guid>
+      <description>Réparer une clef USB Windows:  Il arrive des fois, qu&amp;rsquo;après avoir créée une clef USB bootable (Linux, Windows&amp;hellip;) on se retrouve avec un espace de stockage perdu&amp;hellip;
+Dans mon cas, je voulais reformater ma clef USB de 8 Go sur laquelle j&amp;rsquo;avais monté un ISO Debian, sauf que l&amp;rsquo;outil de formatage Windows indiquait sa capacité totale à 390 Ko !
+Alors que l&amp;rsquo;outil de Gestion des disques Windows indiquait bien 8Go:</description>
+    </item>
+    
+  </channel>
+</rss>

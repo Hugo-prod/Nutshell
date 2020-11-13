@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>serveur on Nutshell</title>
+    <link>https://example.com/tags/serveur/</link>
+    <description>Recent content in serveur on Nutshell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/serveur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Faire un serveur DHCP avec Windows server 16</title>
+      <link>https://example.com/blog/windows_dhcp/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/windows_dhcp/</guid>
+      <description>Voici un tutoriel pour réaliser étape par étape un serveur DHCP avec Windows server 16
+ Cliquez sur Gérer, puis sur Ajouter des rôles et fonctionnalités:
+    Suivant:     Sélectionner le type d’installation Installation basée sur un rôle ou une fonctionnalité:     Selectionner le serveur puis suivant:     Sélectionner le rôle Serveur DHCP:     Valider avec Suivant:     Ici vous pouvez constater toutes les fonctionnalités disponnible, dans notre cas nous n&amp;rsquo;en avons besoin d&amp;rsquo;aucune, cliquez sur Suivant:     :warning: Rappel: votre serveur doit avoir une IP fixée !</description>
+    </item>
+    
+  </channel>
+</rss>
